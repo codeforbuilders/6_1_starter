@@ -29,4 +29,5 @@ Rails.application.configure do
     generator.assets false
     generator.test_framework nil
   end
+  config.hosts = nil
 end
