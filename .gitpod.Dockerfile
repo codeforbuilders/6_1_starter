@@ -5,4 +5,3 @@ USER gitpod
 RUN echo "rvm_gems_path=/home/gitpod/.rvm" > ~/.rvmrc
 RUN bash -lc "rvm install ruby-2.7.3 && rvm use ruby-ruby-2.7.3 --default"
 RUN echo "rvm_gems_path=/workspace/.rvm" > ~/.rvmrc
-RUN bash -lc "bundle install"
